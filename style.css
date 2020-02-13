@@ -10,9 +10,9 @@ header{
 div{
   display: inline-block;
   position: relative;
-  text-align: center;
-
 }
+
+
 .green{
   background-color: green;
   position: absolute;
@@ -32,9 +32,9 @@ section{
  width: 50%;
  margin: auto;
  text-align: center;
-
-
 }
+
+
 .cuore{
   position: absolute;
   left: 50%;
