@@ -1,10 +1,12 @@
 header, footer{
   background-color: grey;
   height:  150px;
-  margin-bottom: 3px;
   text-align: center;
-
 }
+header{
+  margin-bottom: 3px;
+}
+
 div{
   display: inline-block;
   position: relative;
@@ -39,4 +41,8 @@ section{
   bottom: 2%;
   transform: translate(-50%);
   color: red;
+  z-index:-1;
+}
+div:hover  .cuore{
+  z-index: auto;
 }
