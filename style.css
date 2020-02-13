@@ -1,0 +1,42 @@
+header, footer{
+  background-color: grey;
+  height:  150px;
+  margin-bottom: 3px;
+  text-align: center;
+
+}
+div{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+
+}
+.green{
+  background-color: green;
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+}
+.red{
+  background-color: red;
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+}
+
+
+
+section{
+ width: 50%;
+ margin: auto;
+ text-align: center;
+
+
+}
+.cuore{
+  position: absolute;
+  left: 50%;
+  bottom: 2%;
+  transform: translate(-50%);
+  color: red;
+}
